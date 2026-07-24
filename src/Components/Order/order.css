@@ -1,0 +1,109 @@
+.order-banner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  background: linear-gradient(135deg, #d8f1e5 0%, #bce3c9 100%);
+  border-radius: 20px;
+  padding: 50px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.order-content {
+  max-width: 550px;
+  z-index: 2;
+}
+
+.order-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #253D4E;
+  margin: 0 0 15px 0;
+  line-height: 1.2;
+}
+
+.order-subtitle {
+  font-size: 15px;
+  color: #7E7E7E;
+  margin: 0 0 30px 0;
+}
+
+.order-subtitle span {
+  color: #3BB77E;
+  font-weight: 600;
+}
+
+.order-form {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 5px 5px 5px 20px;
+  max-width: 420px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 10px;
+}
+
+.send-icon {
+  color: #838383;
+  font-size: 14px;
+}
+
+.email-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #253D4E;
+}
+
+.email-input::placeholder {
+  color: #B6B6B6;
+}
+
+.subscribe-btn {
+  background-color: #FF5252;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.order-illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: 40px;
+}
+
+.box-icon {
+  font-size: 120px;
+  line-height: 1;
+}
+
+.fresh-badge {
+  background: #ffffff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #253D4E;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin-top: -20px;
+}

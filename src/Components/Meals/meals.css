@@ -1,0 +1,93 @@
+.meals-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+
+.meals-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #253D4E;
+  margin-bottom: 8px;
+}
+
+.title-underline {
+  width: 60px;
+  height: 2px;
+  background-color: #BCE3C9;
+  margin-bottom: 20px;
+}
+
+.meals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.meal-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.2s ease;
+}
+
+.meal-item:hover {
+  transform: translateY(-3px);
+}
+
+.meal-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: #F4F6FA;
+  padding: 5px;
+}
+
+.meal-details h4 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #253D4E;
+  margin: 0 0 6px 0;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.rating {
+  font-size: 11px;
+  color: #FDC040;
+  margin-bottom: 6px;
+}
+
+.rating span {
+  color: #B6B6B6;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.current-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #3BB77E;
+}
+
+.old-price {
+  font-size: 12px;
+  color: #ADADAD;
+  text-decoration: line-through;
+}
